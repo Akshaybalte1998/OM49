@@ -1,0 +1,325 @@
+operator overloading=Extending meaning of the operator so that they can be used on objects.
+
+we cannot overload following opertors
+ 	.
+	.*
+	?:
+	::
+	sizeof
+	typeid
+	//casting optr
+we cannot overload following opertors as a non member function
+	=
+	[]
+	()
+	->
+
+copy construtor = to create new object from existing object.
+assignment operator = used to assign already created object to another already created object. 
+
+
+
+
+
+
+
+
+
+
+//multiple file demo
+
+
+
+Procedure Oriented 			 Object Oriented 
+
+Emphasis on steps or algo	       	Emphasis on data of program
+
+Programs are divided into small   	Programs are divided into small
+code units called Functions	       	data units called classes
+
+Most function shares global 	  	Data is hidden and not
+data and can modify it		  	accessible outside the class
+
+Data moves from function 	       	Objects are communication 
+to function			       	with  each other
+	
+Top-down approach		       	Bottom-up approach		
+
+
+Example: c				Example: C++,JAVA,C#.NET,python
+
+
+
+
+
+
+Advantages Object Oriented Programming 
+1. Objects created for Object Oriented Programs can easily be reused in other programs, so Faster development is possible.
+2. An Object Oriented Program is much easier to modify and maintain
+3.Object Oriented Programs force designers to go through an extensive planning phase, which makes for better designs with less flaws.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Object Oriented programming structure(oops).
+
+-> It is a programing methodology to organise complex 
+program into simple program interms of class and 
+objects such methodology is called as 
+"Object Oriented programming structure"
+
+-> It is a programing methodology to organise complex 
+program into simple program by using the concept of 
+Abstraction, Encapsulation
+and Inheritance,modularity.
+
+->so the language which supports Abstraction, 
+Encapsulation and Inheritance is 
+called as Object Oriented programming language.
+
+->there are 4 mejor pillers of oops
+1. Abstraction 
+2. Encapsulation 
+3. Modularity
+4. Hierarchy
+
+->there are 3 minor pillers of oops
+1. Polymorphism (Typing)
+2. Concurancy
+3. Persistance
+
+
+
+
+
+
+
+
+
+Abstraction 
+->Getting only essential thing and hidding 
+unnecessary details is called Abstraction .
+->it always describe outer behaviour of object.
+->In console based appliction  when we give call 
+to funtion into the main() it represents the 
+Abstraction.
+
+Encapsulation 
+->Binding of data and code is called Encapsulation 
+->implementation of Abstraction is called as Encapsulation  
+->Encapsulation  is always describes inner behaviour 
+of function;
+
+
+
+
+
+
+
+
+
+
+
+
+Information hidding:
+->hidding Information  from user is called 
+as Information hidding
+-> in c++ we use access specifires to provide
+ Information hidding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+modularity:
+->Dividing programing into small module is called
+as modularity
+->there are 2 types of modularity
+1> physical -> dividing class into multiple files
+e:g .h for declaration , .cpp for definations
+2> logical -> dividing class into namespaces 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Polymorphism (Typing)
+->One Function is having multiple forms is called
+polymorphism.
+->polymorphism is of two types
+
+Compile time  - which is also called as 
+		static polymorphism
+		static binding
+		Early binding
+		weak binding
+		false polymorphism.
+
+Runtime  - which is also called as 
+		dynamic polymorphism
+		dynamic binding
+		late binding
+		strong binding
+		true polymorphism.
+
+
+
+
+Compile time:-
+->when call to the function resolve at Compile time
+it is called as Compile time polymorphism 
+->it is achived by using Function overloading 
+
+
+
+Runtime :-
+->when call to the function resolve at runtime
+is called as runtime polymorphism
+->it is achived by using Function overriding.
+
+
+
+
+
+
+
+
+
+Hierarchy:
+
+
+order or level of Abstraction is called Hierarchy
+
+Types of Hierarchy
+	1> has a Hierarchy(Composition)
+	2> is a Hierarchy(Inheritance)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"has a"  Hierarchy:
+->When object is made from other small object
+then it is called as Composition.
+when object is composed of other object it is
+called as Composition
+
+e:g 
+room has a wall
+room has a chair
+system has a motherboard
+system has a UPS
+
+
+
+
+
+
+
+
+
+Types of Composition
+	1> Association
+	2> Aggregation
+	3> Containment
+
+1> Association 
+->Removal of small object do not affect big object
+is called as  "Association"
+e:g  room has a chair
+
+2> Aggregation
+Removal of small object affects the big object
+is called as  Aggregation
+e:g room has a wall
+
+3> Containment
+When a class contains a collection of objects 
+is called as Containment.
+e:g stack ,queue,linked list, array
+such a class is also called as collection
+room has number of chairs.
+
+
+
+//Composition example
+person has a birthdate;
+
+
+"is a" Hierarchy(inheritance) 
+-Process of acquiring properties and behaviour of base class by the derived class is called inheritance.
+-Without changing implementation of existing class, if we want to extends meaning of the class then we should use inheritance.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
